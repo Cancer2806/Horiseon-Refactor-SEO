@@ -1,4 +1,4 @@
-# Horiseon_Refactoring of Web Landing Page (Week 1 Homework)
+# Horiseon: Refactoring of Web Landing Page
 
 ## Description
 Horiseon is a company specialising in improving the SEO scores of customer websites.
