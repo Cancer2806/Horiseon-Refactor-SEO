@@ -17,7 +17,7 @@ Updating included:
   Addition of comments where considered appropriate.
 
 ## Usage
-The project is a relatively simple web page, with address:  
+The project is a relatively simple web page, with address:  https://cancer2806.github.io/Horiseon_Wk1_Homework/
 CSS is contained in one file:  ./assets/css/style.css
 Images are all contained in a local directory:  ./assets/images/
 
