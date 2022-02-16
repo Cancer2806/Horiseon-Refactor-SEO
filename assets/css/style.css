@@ -1,4 +1,4 @@
-/* Global selectors */
+/* Universal selectors */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -28,7 +28,7 @@ p {font-size: 16px;}
     margin-left: 25px;
 }
 
-/* Header and Navigation selectors */
+    /* Header and Navigation selectors */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,7 +58,7 @@ p {font-size: 16px;}
     margin-left: 25px;
 }
 
-/* background picture */
+    /* hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -68,14 +68,16 @@ p {font-size: 16px;}
     background-position: center;
 }
 
-/* section content classes */
+    /* section content classes */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+    /* Use single class to refer to all articles in .content section to ensure consistency and simplify future changes */
+
+.article-left {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,45 +86,14 @@ p {font-size: 16px;}
     color: #fff;
 }
 
-.search-engine-optimization img {max-height: 200px;}
+.article-left img {max-height: 200px;}
 
-.search-engine-optimization h2 {
+.article-left h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #fff;
-}
-
-.online-reputation-management img {max-height: 200px;}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #fff;
-}
-.social-media-marketing img {max-height: 200px;}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* section benefits selectors */
+    /* section benefits selectors */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,49 +105,20 @@ p {font-size: 16px;}
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
+    /* Use single class to refer to all articles in .benefits section to ensure consistency and simplify future changes */
+
+.article-right {
+    margin-bottom: 30px;
+    padding-bottom: 5px;
     color: #fff;
 }
 
-.benefit-lead h3 {
+.article-right h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #fff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #fff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
+.article-right img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
