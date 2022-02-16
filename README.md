@@ -7,9 +7,13 @@ The landing pages on one of Horiseon's own websites required refactoring to impr
 
 Update included:
   Refactoring of legacy code using semantic HTML to improve accessibility, without changing the look/feel of the page;
+  
   Note that although Alt attributes are in use, they are left empty as the pictures are purely aesthetic.
+  
   Likewise the use of figure and figcaption is non-helpful, so not used.
+  
   It is necessary to compress the original images due to their extreme size and impact on performance.
+  
   Repair of broken links.
   
   Restructuring of CSS to improve readability and simplify any future edits.
@@ -18,7 +22,9 @@ Update included:
 
 ## Usage
 The project is a simple web page, with address:  https://cancer2806.github.io/Horiseon_Wk1_Homework/
+
 CSS is contained in one file:  ./assets/css/style.css
+
 Images are all contained in a local directory:  ./assets/images/
 
 ## Credits
