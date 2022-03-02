@@ -21,7 +21,7 @@ Update included:
   Addition of comments where considered appropriate.
 
 ## Usage
-The project is a simple web page, with address:  https://cancer2806.github.io/Horiseon_Wk1_Homework/
+The project is a simple web page, with address:  https://cancer2806.github.io/Horiseon-Refactor-SEO/
 
 CSS is contained in one file:  ./assets/css/style.css
 
